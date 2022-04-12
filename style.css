@@ -32,8 +32,16 @@
     margin-left: 20px;
 }
 
+a {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    font-weight: bold;
+    color: black;
+    
+}
+
 .hero {
-    height: 300px;
+    height: 200px;
     width: 100%;
     margin: 0px;
     background-image: url(./Assets/Hero-img.jpeg);
@@ -53,17 +61,37 @@
     right: 0px;
 }
 
+section h3 {
+    margin-left: 200px;
+    font-size: 45px;
+    text-align: right;
+    border-right: 10px;
+    padding: 15px;
+}
+
+.About-me {
+    display: flex;
+}
+
+.About-me p{
+    display: inline-block;
+    margin: 25px 10px;
+}
+
 .flex-container{
-    justify-content:
+    display: flex;
+    justify-content: end;
 }
 
 .Master-card img {
+    max-height: 500px;
     border-style: solid;
     border-color: aquamarine;
     border-width: medium;
 }
 
 .Minor-card img {
+    max-height: 200px;
     border-style: solid;
     border-color: aquamarine;
     border-width: medium;
@@ -77,3 +105,22 @@
     background-color: aquamarine;
     color: black;
 }
+
+.Contact-me {
+    display: flex;
+}
+
+.Contact-me article {
+    display: inline-block;
+    margin: 15px 10px;
+}
+
+.Contact-me article ul {
+    list-style: none;
+}
+
+.Contact-me article ul li {
+    display: inline-block;
+    padding: 25px;
+}
+
