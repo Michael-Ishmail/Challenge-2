@@ -85,12 +85,13 @@ section h3 {
 }
 
 .Cards{
-    width: 100%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around; 
+    align-items: center;
     border-style: solid;
     border-color: black;
-
+    flex-direction: column;
 }
 
 .Master-card {
@@ -98,9 +99,8 @@ section h3 {
 }
 
 .Master-card img {
-    height: 600px;
-    width: 1200px;
-    flex: 2 1 0%;
+    width: 100%;
+    flex: 1;
     border-style: solid;
     border-color: aquamarine;
     border-width: medium;
@@ -110,18 +110,16 @@ section h3 {
     
 }
 
-.Minor-card img{
-    height: 300px;
-    width: 600px;
-    flex: 1 1 0%;
+.Minor-card img {
+    width: 25%;
+    flex: 1;
     border-style: solid;
     border-color: aquamarine;
     border-width: medium;
 }
 
 .Card-title{
-    display: relative;
-    bottom: 15px;
+    position: absolute;
     width: 180px;
     height: 50px;
     background-color: aquamarine;
