@@ -90,15 +90,17 @@ section h3 {
 }
 
 .Cards{
-    width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
+    padding: 15px;
 }
 
-.Master-card {
-    position: relative;
-    flex: 0 0 100%;
+.Minor-card img{
+    max-width: 100%;
+    border-style: solid;
+    border-color: aquamarine;
+    border-width: medium;
 }
 
 .Master-card img {
@@ -108,17 +110,15 @@ section h3 {
     border-width: medium;
 }
 
-.Minor-card{
+.Master-card {
     position: relative;
-    flex-basis: 50%;
+    flex: 1 1 100%;
 }
 
-.Minor-card img{
-    border-style: solid;
-    border-color: aquamarine;
-    border-width: medium;
-    height: 250px;
-    width: 550px;
+.Minor-card{
+    position: relative;
+    flex: 1 1 50%;
+    min-width: 225px;
 }
 
 .Card-title{
