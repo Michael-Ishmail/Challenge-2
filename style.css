@@ -97,18 +97,18 @@ section h3 {
     padding: 15px;
 }
 
-.Minor-card img{
-    max-width: 100%;
-    border-style: solid;
-    border-color: tan;
-    border-width: medium;
-}
-
 .Master-card img {
     max-width: 100%;
     border-style: solid;
     border-color: tan;
-    border-width: medium;
+    border-width: thick;
+}
+
+.Minor-card img{
+    max-width: 100%;
+    border-style: solid;
+    border-color: tan;
+    border-width: thick;
 }
 
 .Master-card {
