@@ -7,12 +7,12 @@
 
 img:hover {
     background-color: white;
-    opacity: 50%;
+    opacity: 65%;
 }
 
 .header {
     padding: 15px;
-    background-color: aquamarine;
+    background-color: tan;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -64,21 +64,21 @@ a {
     height: 30px;
     color: black;
     text-align: right;
-    background-color: aquamarine;
+    background-color: tan;
     position: absolute;
     bottom: 30px;
     right: 0px;
 }
 
 section h3 {
-    margin-left: 200px;
+    margin-left: 150px;
     font-size: 45px;
-    border-right: 10px;
     padding: 15px;
 }
 
 .About-me {
     display: flex;
+    justify-content: space-between;
 }
 
 .About-me p{
@@ -87,6 +87,7 @@ section h3 {
 
 .Work{
     display: flex;
+    justify-content: space-between;
 }
 
 .Cards{
@@ -99,14 +100,14 @@ section h3 {
 .Minor-card img{
     max-width: 100%;
     border-style: solid;
-    border-color: aquamarine;
+    border-color: tan;
     border-width: medium;
 }
 
 .Master-card img {
     max-width: 100%;
     border-style: solid;
-    border-color: aquamarine;
+    border-color: tan;
     border-width: medium;
 }
 
@@ -128,12 +129,13 @@ section h3 {
     text-align: center;
     width: 180px;
     height: 50px;
-    background-color: aquamarine;
+    background-color: tan;
     color: black;
 }
 
 .Contact-me {
     display: flex;
+    justify-content: space-between;
 }
 
 .Contact-me article {
@@ -152,3 +154,59 @@ section h3 {
     padding: 25px;
 }
 
+@media screen and (max-width: 980px) {
+    .section h3 {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .About-me{
+        flex-wrap: wrap;
+    }
+
+    .Work {
+        flex-wrap: wrap;
+    }
+
+    .Contact-me{
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .section h3 {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .About-me{
+        flex-wrap: wrap;
+    }
+
+    .Work {
+        flex-wrap: wrap;
+    }
+
+    .Contact-me{
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .section h3 {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .About-me{
+        flex-wrap: wrap;
+    }
+
+    .Work {
+        flex-wrap: wrap;
+    }
+
+    .Contact-me{
+        flex-wrap: wrap;
+    }
+}
